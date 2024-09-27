@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Livres</title>
+    <link rel="stylesheet" href="livre.css">
+    <script src="livre.js" defer></script>
+</head>
+<body>
+    <table border="1" id="tab">
+        <tr>
+            <td>ID</td>
+            <td>Titre</td>
+            <td>Auteur</td>
+            <td>Prix</td>
+            <td>Editer</td>
+            <td>Supprimer</td>
+        </tr>
+    </table>
+
+    <input type="button" id="cacher" value="ajouter une ligne">
+    <form id="form">
+        <label>ID</label>
+        <input type="text" id="id">
+        <label>Titre</label>
+        <input type="text" id="titre"><br>
+        <label>Auteur</label>
+        <input type="text" id="auteur"><br>
+        <label>Prix</label>
+        <input type="text" id="prix"><br>
+        <input type="submit" value="Ajouter Livre">
+    </form>
+</body>
+</html>
